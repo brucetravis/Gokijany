@@ -1,9 +1,9 @@
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(134, 134, 134, 0.5);
+    /* background-color: rgba(109, 109, 109, 0.5); */
     /* background-image: linear-gradient(to right, rgba(68,68,68, 0.5), rgba(255, 255, 255, 0.3)); */
     display: flex;
     height: auto;
@@ -61,4 +61,34 @@ header .download:hover {
 }
 
 
+@media (max-width: 992px) {
+    header {
+        padding-left: 2vw;
+    }
+
+    header .logo img{
+        height: 60px;
+        width: 60px;
+    }
+
+    header nav {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    header nav a {
+        font-size: 13px;
+        /* background-color: red; */
+        width: 10vw;
+    }
+
+    header nav {
+        gap: 2px;
+    }
+
+    header .download {
+        padding: 2px 40px;
+        margin-right: 2vw;
+    }
+}
 

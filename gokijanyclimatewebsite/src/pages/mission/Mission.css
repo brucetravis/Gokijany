@@ -93,6 +93,16 @@
         flex-direction: column-reverse
     }
 
+    .second-mission-row .vision-statement {
+        width: 80vw;
+        height: 60vw;
+    }
+
+    .first-mission-row .mission-statement {
+        height: 70vh;
+        width: 80.5vw;
+    }
+
 }
 
 

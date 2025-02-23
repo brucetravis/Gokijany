@@ -36,8 +36,8 @@ export default function Contacts() {
           </div>
           <h1>Contact Us</h1>
           <p className='email-text'>
-            Email, call or complete the top-form to learn how<br/>
-            Snappy can solve your messaging problem.
+            Email, call or complete the top-form to reach out<br/>
+            Incase of any inqueries.
           </p>
           <div className='email-and-number'>
             <p>info@snappy.io</p>

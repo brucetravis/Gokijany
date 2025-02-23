@@ -73,12 +73,13 @@
 @media(max-width: 992px){
     .why-page{
         flex-direction: column;
-        background-color: blue;
+        padding-left: 5vw;
+        /* background-color: blue; */
     }
 
     .why-page .why-texts {
         width: 100%;
-        background-color: red;
+        /* background-color: red; */
 
     }
 }

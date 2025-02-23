@@ -7,7 +7,7 @@ export default function Bottom() {
   return (
     <div>
       <section className='bottom-body'>
-        <p>
+        <p className='ready'>
           Ready to Experience the speed and<br/>simplicity of Snappy?
         </p>
         <div className='links'>
@@ -39,7 +39,7 @@ export default function Bottom() {
                   </div>
                   <div>
                     Download on the
-                    <p style={{marginTop: "-0.5vh", fontSize: "25px"}}>App Store</p>
+                    <p className='apps-p'>App Store</p>
                   </div>
                 </Link>
                 <Link to='/apps' className='apps' style={{display: "flex", gap: "10px", paddingLeft: "10px",textDecoration: "none", color: "white", backgroundColor: "black"}}>

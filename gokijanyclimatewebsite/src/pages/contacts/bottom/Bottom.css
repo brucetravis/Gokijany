@@ -60,12 +60,13 @@
 
 
 .snappy-footer {
-    height: 50vh;
+    height: auto;
     position: absolute;
     left: 2vw;
     right: 2vw;
-    top: 760vh;
+    top: 835vh;
     padding-top: 10vh;
+    padding-bottom: 3vh;
     /* background-color: #eee; */
     /* background-color: #05a653; */
     background-color: white;
@@ -104,5 +105,52 @@
     height: 8vh;
     width: 13vw;
     border-radius: 5px;
+}
+
+.snappy-apps .apps-p {
+    margin-top: "-0.5vh";
+    font-size: "25px"
+}
+
+
+
+@media (max-width: 992px) {
+    .snappy-footer {
+        top: 1140vh;
+    }
+
+    /* .snappy-logo-and-apps {
+        display: flex;
+        gap: 300px;
+    } */
+
+    .bottom-body .ready {
+        font-size: 25px;
+    }
+
+    .links {
+        left: 33vw;
+    }
+
+    .snappy-footer {
+        left: 2vw;
+        right: 2vw;
+        top: 1105vh;
+    }
+
+    .apps {
+        height: 8vh;
+        width: 13vw;
+        font-size: 10px;
+    }
+
+    .apps-p {
+        font-size: 10px;
+    }
+
+    .snappy-logo-and-apps {
+        gap: 60px;
+    }
+    
 }
 

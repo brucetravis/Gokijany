@@ -2,7 +2,7 @@
     background-color: #05a653;
     /* background-color: #05e653; */
     display: flex;
-    height: 130vh;
+    height: auto;
     padding-left: 5vw;
     /* gap: 100px; */
 }
@@ -66,6 +66,7 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 15vh;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -101,7 +102,7 @@
 .top-form .first-input-div input{
     padding: 13px;
     border-radius: 50px;
-    border: 1px solid #eee;
+    border: 1px solid #7e7c7c;
 }
 
 .top-form .first-input-div input:focus {
@@ -120,7 +121,7 @@
 
 
 .top-form input[type="email"] {
-    border: 1px solid #eee;
+    border: 1px solid #7e7c7c;
     padding: 10px;
     width: 100%;
     margin-left: -0.5vw;
@@ -132,7 +133,7 @@
 
 
 .top-form input[type="number"] {
-    border: 1px solid #eee;
+    border: 1px solid #7e7c7c;
     padding: 10px;
     width: 100%;
     border-radius: 50px;
@@ -161,6 +162,7 @@
     width: 29vw;
     outline: none;
     border-radius: 10px;
+    border: 1px solid #444;
     padding: 5px;
     line-height: 20px;
 }
@@ -197,4 +199,56 @@
     display: inline;
     color: black;
     text-decoration: none;
+}
+
+
+@media (max-width: 992px) {
+    .top-body {
+        flex-direction: column;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vh;
+    }
+    
+    .contacts h1 {
+        margin-top: 10vh;
+    }
+
+    .text {
+        gap: 15px;
+    }
+
+    .text h3{
+        font-size: 15px;
+    }
+
+    .support,
+    .feed-back,
+    .media {
+        /* background-color: red; */
+        width: 55vw;
+        font-size: 14px;
+    }
+
+    .top-form {
+        margin-top: 10vh;
+        cursor: pointer;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .top-form .first-input-div input{
+        padding: 13px 55px;
+        border-radius: 50px;
+        border: 1px solid #7e7c7c;
+    }
+
+    .top-form .help-box textarea {
+        width: 82vw;
+    }
+
+    .top-form .terms {
+        width: 40vw;
+        margin-left: 25vw;
+    }
 }
