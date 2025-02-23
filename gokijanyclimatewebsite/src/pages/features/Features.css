@@ -1,0 +1,116 @@
+.features-page {
+    background-color: black;
+    /* background-color: white; */
+    /* height: 100vh; */
+    padding-top: 10vh;
+}
+
+
+.features-titles h2 {
+    color: #05a653;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+
+.features-page h2::after {
+    content: "☘️";
+    background-color: #05a653;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+
+}
+
+.features-titles {
+    text-align: center;
+}
+
+
+.features-titles p {
+    font-size: 30px;
+    margin-top: -1vh;
+    font-weight: bold;
+    color: white;
+}
+
+
+.features-page .calculator {
+    height: 60vh;
+    width: 98.7%;
+    background: radial-gradient(green, #05a653);
+    clip-path: polygon(
+        75% 0,
+        75% 15%,
+        100% 15%,
+        100% 88%,
+        58% 88%,
+        58% 100%,
+        0 100%,
+        0 0
+    );
+    transition: 0.4s
+}
+
+.features-page .calc-div {
+    position: relative;
+}
+
+.features-page .calculator:hover {
+    background: radial-gradient(#05a653, #05a653);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.features-page .calculator .calc-text {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-page .calculator .calc-text h2{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+
+.features-page .calc-div .download-btn {
+    color: #50a653;
+    position: absolute;
+    top: 0;
+    right: 2%;
+    z-index: 12;
+    text-decoration: none;
+    width: 23.2%;
+    /* width: 23.2%; */
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.features-page .calc-div .download-btn i {
+margin-right: 10px;
+}
+.features-page .calc-div .download-btn p {
+margin: 0;
+}
+.features-page .calc-div .download-btn:hover {
+border: solid 1px #05a653;
+}
+.tree {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 16
+}

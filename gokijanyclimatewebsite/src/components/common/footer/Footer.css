@@ -1,0 +1,22 @@
+footer {
+    background-color: #05a653;
+    height: auto;
+    /* margin-top: 100vh; */
+}
+
+footer img {
+    height: 180px;
+    width: 180px;
+    margin-bottom: -5vh;
+    margin-top: 5vh;
+}
+
+
+footer .rights {
+    font-size: 18px;
+    color: white;
+    height: 10vh;
+    border-top: 1px solid grey;
+}
+
+

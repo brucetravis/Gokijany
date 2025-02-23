@@ -1,0 +1,100 @@
+.mission-page {
+    background-color: white;
+    /* height: 100vh; */
+    /* padding-left: 5vw; */
+}
+
+
+.row-divs {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 2vw;
+}
+
+.first-mission-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-mission-row .mission-statement {
+    background-color: #05a653;
+    height: 62vh;
+    width: 40vw;
+    padding-bottom: 5vh;
+}
+
+.first-mission-row .mission-statement h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.mission-text {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5vh;
+}
+
+
+.first-mission-row .mission-statement .mission-text-statement {
+    color: white;
+    font-size: 17px;
+}
+
+.first-mission-row .first-row-image {
+    width: 550px;
+    height: 433px;
+    background-image: url('../../images/mission.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.second-mission-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-mission-row .vision-statement {
+    background-color: #05a653;
+    width: 40.30vw;
+    height: 33vw;
+}
+
+.second-mission-row .vision-statement h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.vision-text {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5vh;
+}
+
+
+.second-mission-row .vision-statement .vision-text-statement {
+    color: white;
+    font-size: 17px;
+}
+
+.second-mission-row .second-row-image {
+    width: 546px;
+    height: 450px;
+    background-image: url('../../images/vision.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 992px){
+    .second-mission-row{
+        flex-direction: column-reverse
+    }
+
+}
+
+
+
+
