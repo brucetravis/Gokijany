@@ -1,0 +1,77 @@
+.top-contact{
+    background-color:#f3f3f3;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.top-contact .container{
+    display:flex;
+    justify-content:space-between; 
+    text-align:left;
+}
+.top-contact .contact-details{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly
+
+}
+.top-contact .other-infoz{
+    display:flex;
+    justify-content:space-around;
+}
+
+.top-contact .other-infoz .other-info{
+    margin: 10px;
+    width: 30%;
+    
+}
+
+.top-contact .other-infoz .other-info h3 {
+    font-size: 14px
+}
+.top-contact .other-infoz .other-info p{
+    font-size: 12px
+
+}
+
+/* FORM */
+.top-contact form{
+    box-shadow: 0px 0px 10px #d3d3d3;
+    padding: 20px;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+.top-contact form input{
+    background-color:transparent;
+    padding: 5px 10px;
+    border: none;
+}
+.top-contact form .input-group{
+    margin-left: 0px;
+}
+.top-contact form  .input-div .bi-envelope{
+    margin-left: 10px
+}
+.top-contact form .input-div{
+    border: solid 1px #d3d3d3;
+    border-radius:16px !important;
+    width: 100%;
+}
+.top-contact form .input-group input{
+    width:48%;
+    border: solid 1px #d3d3d3;
+    border-radius:16px !important;
+}
+.top-contact form textarea{
+    background-color: transparent;
+    width: 100%;
+    border: solid 1px #d3d3d3;
+    border-radius:16px !important;
+    padding: 5px 10px;
+}
+.top-contact form .terms{
+    font-size: 14px !important;
+    text-align:center
+}

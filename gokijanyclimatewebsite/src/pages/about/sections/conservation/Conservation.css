@@ -1,0 +1,8 @@
+#conservation .container {
+    background: #81ddaf1a;
+  }
+  
+  #conservation .container > div > div:nth-child(2) {
+    background: url("../../../../images/climate.png") center no-repeat;
+    background-size: contain;
+  }

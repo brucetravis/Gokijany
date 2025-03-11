@@ -1,0 +1,77 @@
+.middle-body {
+    padding-left: 3vw;
+    gap: 30px;
+    background-color: white;
+}
+
+.middle-body .address {
+    display: flex;
+    /* gap: 20px */
+}
+
+.middle-body .questions {
+    display: flex;
+    /* gap: 20px */
+}
+
+/* 
+.middle-body .faqs .middle-form {
+    gap: 50px;
+}
+
+
+.middle-body .faqs .middle-form input {
+    width: 22.6vw;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.middle-body .faqs .middle-form button {
+    width: 6vw;
+    padding: 15px;
+    margin-left: 0.5vw;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #05a653;
+    transition: background-color 0.3s ease;
+}
+
+
+.middle-body .faqs .middle-form button:hover {
+    color: #444444;
+    cursor: pointer;
+    background-color: #1caa60;
+} */
+
+.questions {
+    gap: 100px;
+    margin-bottom: 5vh;
+    /* background-color: red; */
+}
+
+
+.questions .drop-downs {
+    margin-top: 3vh;
+    /* background-color: blue; */
+}
+
+
+.different-messages,
+.secure,
+.personalize,
+.group {
+    border-bottom: 1px solid rgb(223, 221, 221);
+}
+
+
+@media (max-width: 480px) {
+    .middle-body .faqs .middle-form button {
+        width: 28vw;
+        margin-top: 2vh;
+        padding: 15px;
+    }
+}
+
+
