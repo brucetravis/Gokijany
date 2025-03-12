@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../../../images/gokijany-logo-nobg.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false);
@@ -61,6 +62,7 @@ export default function Header() {
     { path: "/features", label: "Features", sectionId: "features" },
     { path: "/objectives", label: "Objectives", sectionId: "objectives" },
     { path: "/whyus", label: "Why Us", sectionId: "whyus" },
+    { path: "/events", label: "Events", sectionId: "events" },
     { path: "/contacts", label: "Contact Us", sectionId: "contacts" },
   ];
 
@@ -83,12 +85,16 @@ export default function Header() {
           <ul>
             {menuItems.map(({ path, label, sectionId }) => (
               <li key={path} onClick={closeMobileMenu}>
-                <a
-                  href={`#${sectionId}`}
-                  className={activeSection === sectionId ? "active" : ""}
-                >
-                  {label}
-                </a>
+                {path === "/events" ? (
+                  <Link to={`${path}`}>{label}</Link>
+                ) : (
+                  <a
+                    href={`#${sectionId}`}
+                    className={activeSection === sectionId ? "active" : ""}
+                  >
+                    {label}
+                  </a>
+                )}
               </li>
             ))}
           </ul>

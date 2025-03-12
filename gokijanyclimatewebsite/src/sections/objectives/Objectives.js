@@ -1,7 +1,7 @@
 import React from "react";
 import "./Objectives.css";
 
-export default function Mission() {
+export default function Objectives() {
   return (
     <section id="mission_vision">
       <div className="container">
