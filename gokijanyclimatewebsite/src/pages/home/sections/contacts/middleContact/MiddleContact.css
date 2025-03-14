@@ -1,0 +1,14 @@
+.contact-middle-section {
+    gap: 150px
+}
+
+
+.email-contact-form  input {
+    width: 70%;
+    padding: 5px
+}
+
+.email-contact-form  button {
+    margin-left: 5px
+}
+

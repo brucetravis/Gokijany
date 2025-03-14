@@ -5,6 +5,7 @@ import Footer from "./components/common/footer/Footer";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import Events from "./pages/events/Events";
+import Eventpage1 from "./pages/events/eventpages/Eventpage1"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path={"/"} element={<Home />} />
           <Route path={"/about"} element={<About />} />
           <Route path={"/events"} element={<Events />} />
+          <Route path={"/eventspages"} element={<Eventpage1/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

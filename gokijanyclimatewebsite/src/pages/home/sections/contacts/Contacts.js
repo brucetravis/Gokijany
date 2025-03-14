@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contacts.css'
-import TopContact from './topContact/TopContact'
+import MiddleContact from './middleContact/MiddleContact';
+import TopContact from './topContact/TopContact';
 
 
 export default function Contacts() {
@@ -8,7 +9,8 @@ export default function Contacts() {
     <div>
       {/* Top */}
         <TopContact/>
-
+      {/* Middle */}
+        <MiddleContact/>
     </div>
   )
 }

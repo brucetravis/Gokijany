@@ -6,6 +6,7 @@ import Hero from './sections/hero/Hero';
 import Why from './sections/whyus/Why';
 import Who from './sections/who/Who';
 import './Home.css';
+import Eventpage1 from '../events/eventpages/Eventpage1';
 
 // HOME PAGE
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Objectives/>
       <Why/>
       <Contacts/>
+      <Eventpage1/>
     </main>
   )
 }

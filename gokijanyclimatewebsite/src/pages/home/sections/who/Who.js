@@ -34,7 +34,7 @@ export default function Who() {
           <a
             target="_blank"
             href="./about.html"
-            className="section_btn scrollto"
+            className="section_btn scrollto mt-5"
             >Learn about Gokijany</a>
         </div>
       </div>
