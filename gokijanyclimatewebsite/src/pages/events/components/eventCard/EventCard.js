@@ -1,9 +1,10 @@
 import React from "react";
 import "./EventCard.css";
+import { Link } from 'react-router-dom'
 
-export default function EventCard({ name, img, location, date, price }) {
+export default function EventCard({ eventId, name, img, location, date, price }) {
   return (
-    <div className="event-card">
+    <Link className="event-card" to={`/events/${eventId}`}>
       <img alt={name} src={img} />
       <div className="event-details">
         <p className="event-title">{name}</p>
@@ -13,6 +14,6 @@ export default function EventCard({ name, img, location, date, price }) {
         <p className="event-location">{location}</p>
         <p className="event-price">{price}</p>
       </div>
-    </div>
+    </Link>
   );
 }

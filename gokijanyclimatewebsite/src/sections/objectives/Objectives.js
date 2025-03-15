@@ -3,7 +3,7 @@ import "./Objectives.css";
 
 export default function Objectives() {
   return (
-    <section id="mission_vision">
+    <section id="objectives">
       <div className="container">
         <div className="d-flex row">
           <div className="col-lg-6">

@@ -30,7 +30,7 @@ export default function MiddleContact() {
     <section className='container'>
       <div className='contact-middle-section row mt-5 d-flex'>
         <div className='contact-questions col-md-4'>
-          <h3 className='fs-4'>FAQ</h3>
+          <h3 className='fs-4'>FAQ's</h3>
           <h2 className='fs-2'>Do You have any questions for us?</h2>
           <p>If there are any questions you want to ask. We will answer all your questions.</p>
           <form 
@@ -39,7 +39,7 @@ export default function MiddleContact() {
           className='email-contact-form mt-3'
           >
             <input type='email' placeholder='Enter your Email'/>
-            <button className='btn btn-primary'>Submit</button>
+            <button className='btn '>Submit</button>
           </form>
         </div>
         <div className='contact-faqs col-md-6'>

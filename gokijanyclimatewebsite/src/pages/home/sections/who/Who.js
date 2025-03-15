@@ -11,7 +11,7 @@ export default function Who() {
           <h2>Who we are</h2>
           <p>Innovation for Conservation</p>
         </div>
-        <div>
+        <div className='mb-3'>
           <p>
             Gokijany is a climate-fintech marketplace where users can offset
             and monetise carbon. By integrating carbon offsetting,
@@ -31,11 +31,10 @@ export default function Who() {
         </div>
 
         <div>
-          <a
-            target="_blank"
-            href="./about.html"
-            className="section_btn scrollto mt-5"
-            >Learn about Gokijany</a>
+          <Link
+            to="/about"
+            className="section_btn scrollto"
+            >Learn about Gokijany</Link>
         </div>
       </div>
     </div>

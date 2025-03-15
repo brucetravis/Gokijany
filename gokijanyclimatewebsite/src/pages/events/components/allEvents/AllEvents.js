@@ -10,6 +10,7 @@ export default function AllEvents({ events, selectedCategory }) {
         {events.map((item, index) => (
           <EventCard
             key={index}
+            eventId={item.id}
             img={item.img}
             name={item.name}
             location={item.locationDesc}

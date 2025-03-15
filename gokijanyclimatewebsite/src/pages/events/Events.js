@@ -33,7 +33,7 @@ export default function Events() {
     const unsubscribe = onValue(eventsRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
-        console.log("data: ", data);
+        // console.log("data: ", data);
         const eventList = Object.values(data);
 
         setEvents(eventList);

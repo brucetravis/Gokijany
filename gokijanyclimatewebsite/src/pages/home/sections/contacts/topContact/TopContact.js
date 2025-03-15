@@ -43,7 +43,7 @@ export default function Contacts() {
             </div>
 
             <div className="other-infoz row">
-              <div className="other-info col-lg-3">
+              <div className="other-info col-lg-3r">
                 <h3>Feedback and Suggestions</h3>
                 <p>
                   We value your feedback and are continuously working to improve

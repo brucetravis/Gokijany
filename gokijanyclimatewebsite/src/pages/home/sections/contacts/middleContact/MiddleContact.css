@@ -12,3 +12,13 @@
     margin-left: 5px
 }
 
+.contact-questions .btn{
+    background-color: #05a653;
+    color: #f1f1f1
+}
+
+.contact-questions .btn:hover {
+    color: #333;
+    cursor: pointer;
+}
+

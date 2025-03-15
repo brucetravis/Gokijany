@@ -80,4 +80,8 @@
     .other-infoz {
         flex-direction: column;
     }
+
+    .top-contact .other-infoz .other-info {
+        width: 100%;
+    }
 }
