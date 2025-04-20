@@ -105,20 +105,24 @@
   font-size: 28px;
   cursor: pointer;
   display: none;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 1002;
 }
 
 @media (max-width: 991px) {
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .mobile-nav-toggle {
     display: block;
+    margin-left: 45%;
   }
 
   .navbar ul {
     flex-direction: column;
     width: 100%;
+    display: none;
+    position: relative;
   }
 
   .navbar ul.menu {
@@ -127,5 +131,18 @@
 
   .navbar ul.menu.open {
     display: flex;
+  }
+  .navbar.mobile ul {
+    background: linear-gradient(
+      to left,
+      transparent,
+      rgba(0, 0, 0, 0.071),
+      rgba(0, 0, 0, 0.927)
+    );
+    display: block;
+    position: absolute;
+    top: 6vh;
+    left: 40%;
+    border-radius: 10px;
   }
 }

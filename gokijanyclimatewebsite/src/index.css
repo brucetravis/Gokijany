@@ -55,8 +55,8 @@ code {
   background-color: #05a653;
   color: white;
   padding: 5px 30px;
-  /* position: absolute;
-  left: 29vw; */
+  max-width: 50%;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
   text-decoration: none;

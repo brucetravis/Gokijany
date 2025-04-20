@@ -1,11 +1,10 @@
-import React from 'react'
-import './Hero.css'
+import React from "react";
+import "./Hero.css";
 
 export default function Hero() {
   return (
-    <div className='hero-section'>
-      <div className="hero-img">
-      </div>
-    </div>
-  )
+    <section className="hero-section" id="home">
+      <div className="hero-img"></div>
+    </section>
+  );
 }

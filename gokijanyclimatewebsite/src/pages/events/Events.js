@@ -12,6 +12,7 @@ import { db } from "../../configs/firebase";
 import { onValue, ref } from "firebase/database";
 import AllEvents from "./components/allEvents/AllEvents";
 import Categories from "./components/categories/Categories";
+import Preloader from "../../components/common/preloader/Preloader";
 
 export default function Events() {
   let limit = 3;
@@ -26,14 +27,13 @@ export default function Events() {
   const isFetched = useRef(false);
 
   const getEvents = useCallback(() => {
-    // Explicit return type
     setLoading(true);
-
     const eventsRef = ref(db, "events");
+
     const unsubscribe = onValue(eventsRef, (snapshot) => {
       const data = snapshot.val();
+
       if (data) {
-        // console.log("data: ", data);
         const eventList = Object.values(data);
 
         setEvents(eventList);
@@ -70,19 +70,18 @@ export default function Events() {
     [events, selectedCategory]
   );
 
+  if (loading) return <Preloader />;
+
   return (
     <main id="events">
       <div className="content">
         <EventsHeader />
-
         <Popular popularEvents={popularEvents} />
-
         <Categories
           categories={categories}
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-
         <AllEvents
           events={filteredEvents}
           selectedCategory={selectedCategory}

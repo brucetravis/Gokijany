@@ -1,16 +1,15 @@
-import React from 'react'
-import './Contacts.css'
-import MiddleContact from './middleContact/MiddleContact';
-import TopContact from './topContact/TopContact';
-
+import React from "react";
+import "./Contacts.css";
+import MiddleContact from "./middleContact/MiddleContact";
+import TopContact from "./topContact/TopContact";
 
 export default function Contacts() {
   return (
-    <div>
+    <div id="contacts">
       {/* Top */}
-        <TopContact/>
+      <TopContact />
       {/* Middle */}
-        <MiddleContact/>
+      <MiddleContact />
     </div>
-  )
+  );
 }

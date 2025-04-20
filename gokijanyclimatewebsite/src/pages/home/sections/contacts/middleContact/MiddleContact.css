@@ -1,24 +1,34 @@
 .contact-middle-section {
-    gap: 150px
+  gap: 3rem;
+  padding: 3rem 0;
 }
 
-
-.email-contact-form  input {
-    width: 70%;
-    padding: 5px
+.contact-questions h2 {
+  font-weight: 700;
 }
 
-.email-contact-form  button {
-    margin-left: 5px
+.email-contact-form input {
+  width: 70%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
 }
 
-.contact-questions .btn{
-    background-color: #05a653;
-    color: #f1f1f1
+.email-contact-form button {
+  margin-left: 0.5rem;
+  background-color: #05a653;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
 }
 
-.contact-questions .btn:hover {
-    color: #333;
-    cursor: pointer;
+.email-contact-form button:hover {
+  background-color: #048f48;
+  color: #fff;
+  cursor: pointer;
 }
 
+.contact-faqs {
+  padding-top: 1rem;
+}

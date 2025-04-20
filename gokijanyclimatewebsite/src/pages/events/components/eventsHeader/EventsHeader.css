@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   transition: 0.4s;
-  margin-top: -6vh;
+  /* margin-top: -6vh; */
   padding: 0 20px; /* Added padding for smaller screens */
 }
 
